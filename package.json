@@ -1,5 +1,5 @@
 {
-  "name": "dir-changed",
+  "name": "dir-changed.js",
   "version": "1.0.0",
   "description": "easy check dir changes, support ignores",
   "main": "index.js",
@@ -24,7 +24,14 @@
   },
   "homepage": "https://github.com/apporoad/dir-changed.js#readme",
   "dependencies": {
+    "commander": "^5.1.0",
+    "find": "^0.3.0",
     "gitignore-parser": "0.0.2",
+    "hasha": "^5.2.0",
     "lisa.utils": "^2.1.0"
+  },
+  "bin": {
+    "dchange": "bin.js",
+    "dch": "bin.js"
   }
 }

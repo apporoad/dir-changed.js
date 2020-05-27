@@ -103,4 +103,10 @@ dist
 # TernJS port file
 .tern-port
 
+.vscode/
+
+.ignore
+
 .sha256sum.json
+
+test.js
