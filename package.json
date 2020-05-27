@@ -1,0 +1,30 @@
+{
+  "name": "dir-changed",
+  "version": "1.0.0",
+  "description": "easy check dir changes, support ignores",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apporoad/dir-changed.js.git"
+  },
+  "keywords": [
+    "file",
+    "dir",
+    "changed",
+    "check",
+    "ignore"
+  ],
+  "author": "apporoad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apporoad/dir-changed.js/issues"
+  },
+  "homepage": "https://github.com/apporoad/dir-changed.js#readme",
+  "dependencies": {
+    "gitignore-parser": "0.0.2",
+    "lisa.utils": "^2.1.0"
+  }
+}
